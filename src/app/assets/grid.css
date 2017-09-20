@@ -27,12 +27,19 @@
       'h1 h2 h3';    
   }
 
-  .user-info {
-    display: grid;    
-    grid-area: h3;
-    grid-template-areas:
-    'user';         
-  }
+ .nav {
+   margin-left: 5vh;
+ }
+
+ .nav-list {
+  display: grid;
+  margin-top: 10vh;
+  grid-area: nav;
+  justify-content: center;
+  list-style-type: none;
+  grid-template-areas:
+  'm1 m2 m3 m4';     
+}
 
   .books {
     display: grid;
