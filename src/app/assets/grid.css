@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container {
+    width: 100%;
+    display: grid;
+    font-family: verdana; 
+    font-size: 3vh;
+    grid-template-columns: auto;
+    grid-template-rows: 4fr 24fr auto;
+    grid-template-areas:
+      'header'
+      'nav'
+      'books books books books'
+      'footer footer';
+  }
+
+  .header {
+    display: grid;
+    grid-area: header;
+    justify-content: space-between;
+    margin-right: 3vh;
+    margin-left: 3vh;    
+    grid-template-areas:
+      'h1 h2 h3';    
+  }
+
+  .user-info {
+    display: grid;    
+    grid-area: h3;
+    grid-template-areas:
+    'user';         
+  }
+
+  .books {
+    display: grid;
+    grid-area: books;
+    grid-template-areas:
+    'book'
+    'book';   
+  }
