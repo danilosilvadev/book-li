@@ -9,7 +9,7 @@
     font-family: verdana; 
     font-size: 3vh;
     grid-template-columns: auto;
-    grid-template-rows: 4fr 24fr auto;
+    grid-template-rows: 4fr 6fr auto;
     grid-template-areas:
       'header'
       'nav'
